@@ -1,0 +1,17 @@
+package com.aulamavenspringboot.curso.config;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
+
+import com.aulamavenspringboot.curso.respositories.UserRepository;
+
+@Configuration 
+@Profile("test") //nome tem que ser igual ao colocado no application.properties
+public class TestConfig {
+	
+	@Autowired //injeta automaticamente a dependência;
+	private UserRepository userRepository;
+	
+	
+}

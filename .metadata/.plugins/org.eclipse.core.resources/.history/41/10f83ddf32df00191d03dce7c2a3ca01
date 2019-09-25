@@ -1,0 +1,10 @@
+package com.aulamavenspringboot.curso.config;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
+
+@Configuration 
+@Profile("test") //nome tem que ser igual ao colocado no application.properties
+public class TestConfig {
+
+}

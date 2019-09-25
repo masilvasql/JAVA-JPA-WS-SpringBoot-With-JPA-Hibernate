@@ -1,0 +1,5 @@
+package com.aulamavenspringboot.curso.respositories;
+
+public class UserRepository {
+
+}
