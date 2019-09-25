@@ -1,0 +1,5 @@
+package com.aulamavenspringboot.curso.resources;
+
+public class UserResource {
+
+}

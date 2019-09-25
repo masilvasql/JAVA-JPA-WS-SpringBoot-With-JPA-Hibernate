@@ -1,0 +1,5 @@
+package com.aulamavenspringboot.curso.entities;
+
+public class User {
+
+}
